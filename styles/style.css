@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-header {
+  margin-left: 30px;
+}
+
+.nav-bar {
+  background-color: #ffffff;
+  color: #0f141e;
+  padding-top: 30px;
+}
+
+.nav-right ul {
+  margin: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.nav-right ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.nav-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.logo {
+  margin-right: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 39px;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  border: 1px solid #0f141e;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.logo p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0;
+}
+
+.name {
+  margin: auto;
+  margin-left: 0;
+}
+
+.name ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.name ul li {
+  list-style: none;
+  text-decoration: none;
+  vertical-align: middle;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
