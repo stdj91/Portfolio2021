@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 @font-face {
     font-family: "Helvetica Now Display";
@@ -53,19 +57,17 @@ body {
     text-decoration: none;
 }
 .nav-right a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    content: '';
+    background: red;
+    display: block;
     width: 100%;
-    height: 2px;
-    background-color: red;
+    height: 3px;
 
-    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
     transform-origin: right;
     transition: transform 300ms ease-in;
 }
-.nav-right a::after:hover {
+.nav-right a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
 }
