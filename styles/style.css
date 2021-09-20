@@ -108,6 +108,9 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .logo {
@@ -115,11 +118,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 39px;
-  width: 65px;
-  height: 65px;
+  font-size: 28px;
+  width: 55px;
+  height: 55px;
   position: relative;
-  border: 4px solid #0f141e;
+  border: 3px solid #0f141e;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -133,7 +136,7 @@ body {
 }
 
 #logo-name {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -176,20 +179,23 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .personal-info {
-  padding-top: 9em;
+  padding-top: 14em;
+  padding-left: 4em;
 }
 
 .personal-info h1 {
-  font-size: 90px;
+  font-size: 65px;
   font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .personal-info p {
-  font-size: 28px;
+  font-size: 22px;
   color: grey;
 }
 
@@ -198,6 +204,26 @@ body {
 }
 
 #header-name p {
-  font-size: 20px;
+  font-size: 16px;
+  letter-spacing: 2.3px;
+  font-weight: 100;
+}
+
+#header-name span {
+  padding-right: 20px;
+}
+
+.view-about {
+  padding-top: 20px;
+}
+
+.view-about a {
+  font-weight: 600;
+  color: #b40101 !important;
+  letter-spacing: 1px;
+}
+
+#web {
+  color: #b40101;
 }
 /*# sourceMappingURL=style.css.map */

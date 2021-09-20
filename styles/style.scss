@@ -81,17 +81,18 @@ body {
 .nav-left {
     display: flex;
     justify-content:flex-start;
+    align-items: baseline;
    
 }
 
 .logo {
     margin-right: 15px;
     align-items: center;
-    font-size: 39px;
-    width: 65px;
-    height: 65px;
+    font-size: 28px;
+    width: 55px;
+    height: 55px;
     position: relative;
-    border: 4px solid #0f141e;
+    border: 3px solid #0f141e;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -100,7 +101,7 @@ body {
     padding-bottom: 5px;
 }
 #logo-name {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
 }
 .logo p {
@@ -129,24 +130,44 @@ body {
     text-decoration: none;
     vertical-align: middle;
     justify-content: center;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .personal-info {
-    padding-top: 9em;
+    padding-top: 14em;
+    padding-left: 4em;
 }
 
 .personal-info h1 {
-    font-size: 90px;
+    font-size: 65px;
     font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .personal-info p {
-    font-size: 28px;
+    font-size: 22px;
     color: grey;
 }
 .header-experiance {
     width: 87%;
+    
 }
 #header-name p {
-    font-size: 20px;
+    font-size: 16px;
+    letter-spacing: 2.3px;
+    font-weight: 100;
+}
+#header-name span {
+    padding-right: 20px;
+}
+.view-about {
+    padding-top: 20px;
+}
+.view-about a {
+    font-weight: 600;
+    color: #b40101 !important;
+    letter-spacing: 1px;
+}
+#web {
+    color: #b40101;
 }
