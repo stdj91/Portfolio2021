@@ -29,7 +29,7 @@ body {
 }
 .logo-s{
     display: flex;
-    border: 2px solid black;
+    border: 2px solid #0f141e;;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -41,6 +41,7 @@ body {
 .logo-s p {
     font-size: 32px;
     font-weight: 600;
+    color: #0f141e;
 
 }
 
@@ -219,6 +220,7 @@ body {
     font-size: 65px;
     font-weight: 900;
     margin-right: -150px;
+    color: #0f141e;
 }
 .header-about__info {
     padding-bottom: 25px;
@@ -252,4 +254,91 @@ body {
     min-width: 800px;
     min-height: 400px;
     margin-top: -60px;
+}
+
+.container-about {
+    height: 110vh;
+    width: 100%;
+}
+.row-about {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 20%;
+}
+.about-me-h {
+    padding-bottom: 35px;
+    padding-top: 45px;
+}
+.about-me-h p {
+    font-size: 15px;
+    letter-spacing: 8px;
+    font-weight: 300;
+    color:#878a8f;
+}
+.about-me-h span {
+    color: #b40101;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.about-main__text{
+    font-size: 33px;
+    font-weight: 600;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 1.2;
+    color: #0f141e;
+    padding-bottom: 30px;
+}
+.about-section__p {
+    padding-left: 20%;
+    padding-right: 20%;
+    color: #878a8f;
+    padding-bottom: 100px;
+}
+.about-section__p p{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+hr {
+    width: 80%;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0, 0.1);
+    border-bottom: 1px solid rgba(255,255,255, 0.3);
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+.technologies-use p{
+    font-size: 15px;
+    letter-spacing: 8px;
+    font-weight: 300;
+    color:#878a8f;
+    text-transform: uppercase;
+}
+.technologies-use {
+    padding-bottom: 40px;
+}
+.technologies p{
+    font-size: 24px;
+    font-weight: 400;
+    color:#0f141e;
+}
+.technologies span{
+    color: #878a8f;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.technologies {
+    margin: auto;
+    min-height: 300px;
+    width: 400px;
+    line-height: 1.5;
 }
