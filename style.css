@@ -416,3 +416,7 @@ hr {
     font-size: 20px;
     font-weight: 900;
 }
+
+.show-experience {
+    display: none;
+}
