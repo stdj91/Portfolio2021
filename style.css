@@ -403,7 +403,7 @@ hr {
     color: #878a8f;
 }
 
-.job-description__positon ul li {
+.job-description__position ul li {
     margin-left: 20px;
     color:#878a8f;
     padding-top: 10px;
@@ -411,8 +411,8 @@ hr {
     font-size: 20px;
     font-weight: 300;
 }
-.job-description__positon ul li::marker {
-    color: red;
+.job-description__position ul li::marker {
+    color: #b40101;
     font-size: 20px;
     font-weight: 900;
 }
