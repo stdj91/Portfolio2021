@@ -455,11 +455,7 @@ hr {
     color: #878a8f;
     padding-bottom: 1rem;
 }
-.info-project-card {
-    border: 2px solid rgb(253, 0, 219);
-    margin-left: -50px;
-    padding: 15px;
-}
+
 
 /*================= card animation ======================*/
 
@@ -471,6 +467,7 @@ hr {
     background-color: rgb(80, 80, 80);
     background-blend-mode:overlay;
     background-position: center;
+    border-radius: 15px;
     color: white;
     width: 65%;
     display: flex;
@@ -479,6 +476,11 @@ hr {
     justify-content: center;
     flex-direction: column;
     padding: 2rem;
+
+    transition: 0.7s;
+}
+.content:hover {
+  transform: scale(1.05)
 }
 .card__title {
     position: relative;
@@ -523,7 +525,7 @@ hr {
     bottom: -0.75rem;
     left: -0.6rem;
     right: 0;
-    background:#5de40f;
+    background:#878a8f;
     width: calc(80%);
 
     z-index: -1;
@@ -535,5 +537,23 @@ hr {
     transform: scaleY(1)
 }
 .card:hover .card__body {
-    color: #0f141e;
+    color: #b40101;
+}
+
+.info-project-card {
+    margin-left: -50px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 20px 20px 50px rgba(0,0,0, 0.3);
+    border-radius: 15px;
+    background: rgba(255,255,255, 1);
+    justify-content: center;
+    text-align: end;
+}
+
+.techologies-used-project {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+    padding-top: 1rem;
 }
