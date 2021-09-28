@@ -74,7 +74,7 @@ body {
     background-color: rgba(0,0,0, 0);
     clip-path: circle( 50px at calc(100% - 45px) 43px);
     transition: all 0.3s ease-in-out;
-    z-index: 2;
+    z-index: 5;
 }
 
 .active{
@@ -551,7 +551,7 @@ hr {
     text-align: end;
 }
 
-.techologies-used-project {
+.technologies-used-project {
     display: flex;
     justify-content: space-around;
     text-align: center; 
@@ -633,12 +633,6 @@ hr {
 
 .align {
     text-align: left;
-}
-
-
-/*======================== Project FIVE===========================*/
-#project-five {
-    padding-bottom: 12rem;  
 }
 
 
