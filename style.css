@@ -437,7 +437,7 @@ hr {
     color: grey;
     font-weight: 900;
     letter-spacing: 10px;
-    padding-bottom: 1rem;
+    padding-bottom: 6rem;
 }
 .row-project {
     display: flex;
@@ -480,7 +480,7 @@ hr {
     transition: 0.7s;
 }
 .content:hover {
-  transform: scale(1.05)
+  transform: scale(1.02)
 }
 .card__title {
     position: relative;
@@ -525,7 +525,7 @@ hr {
     bottom: -0.75rem;
     left: -0.6rem;
     right: 0;
-    background:#878a8f;
+    background:#dfdfdf;
     width: calc(80%);
 
     z-index: -1;
@@ -556,4 +556,109 @@ hr {
     justify-content: space-around;
     text-align: center; 
     padding-top: 1rem;
+}
+
+
+/*======================Right side project section ====================*/
+
+.right-side {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+.right-card {
+    text-align: right;
+}
+.card__title-right {            
+    position: relative;
+    z-index: 1; 
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 10px 0 10px 0;
+}
+.card__title-right::after {
+    content: '';
+    position: absolute;
+    top: -0.25rem;
+    bottom: -0.25rem;
+    width: calc(100% + 4rem);
+    background: #b40101;
+    right: -2rem;
+    z-index: -1;
+    
+
+    transform: scaleX(0.1);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+}
+
+.card-right:hover .card__title-right::after {
+    transform: scaleX(1);
+}
+
+.card__body-right {
+    position: relative;
+    color: transparent;
+    z-index: 1;
+    margin: 0;
+    transition: color 150ms 350ms;
+}
+
+
+.card__body-right::after {
+    content: '';
+    position: absolute;
+    top: -0.75rem;
+    bottom: -0.75rem;
+    left: 7.9rem;
+    right: 0;
+    background:#dfdfdf;
+    width: calc(80%);
+
+    z-index: -1;
+    transform: scaleY(0);
+    transition: transform 250ms ease-in 250ms;
+    transform-origin: top;
+}
+.card-right:hover .card__body-right::after {
+    transform: scaleY(1)
+}
+.card-right:hover .card__body-right {
+    color: #b40101;
+}
+.left-card-side {
+    text-align: left;
+    margin-right: -50px;
+    z-index: 2;
+}
+
+.align {
+    text-align: left;
+}
+
+
+/*======================== Project FIVE===========================*/
+#project-five {
+    padding-bottom: 12rem;  
+}
+
+
+/*============================ Contact =======================*/
+.small-spacer {
+    height: 100px;
+}
+.container-contact {
+    max-width: 700px;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.container-contact h2 {
+    padding-bottom: 2rem;
+}
+.contact-description {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
