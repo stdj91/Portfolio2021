@@ -654,5 +654,76 @@ hr {
 }
 .contact-description {
     padding-top: 20px;
+    padding-bottom: 40px;
+}
+.contact-description p{
+    font-size: 20px;
+    color: #878a8f;
+}
+.social-profile ul li {
+    list-style: none;
+}
+.social-profile ul li a{
+    text-decoration: none;
+}
+.fa-linkedin-in{
+    color: #b40101;
+    font-size: 28px;
+    font-weight: 800;
+    padding-left: 2px;
     padding-bottom: 20px;
+}
+.linked {
+    color: #878a8f;
+    font-size: 20px;
+}
+.fa-envelope-open-text{
+    color: #b40101;
+    font-size: 28px;
+    font-weight: 800;
+}
+.email {
+    color: #878a8f;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.get-in-touch {
+    position: relative;
+    z-index: 1; 
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.get-in-touch::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1rem;
+    height: 70%;
+    background: #b40101;
+    left: 0;
+    z-index: -1;
+    left: 4rem;
+}
+
+.projects-main-head {
+    position: relative;
+    z-index: 1; 
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.projects-main-head::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1rem;
+    height: 47%;
+    background: #b40101;
+    left: 0;
+    z-index: -1;
+    left: -2rem;
 }
