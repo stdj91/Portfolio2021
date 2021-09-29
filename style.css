@@ -462,7 +462,6 @@ hr {
 .content {
     min-width: 650px;
     min-height: 350px;
-    background-image: url('./images/1842680935.jpg');
     background-size: cover;
     background-color: rgb(80, 80, 80);
     background-blend-mode:overlay;
@@ -482,6 +481,38 @@ hr {
 .content:hover {
   transform: scale(1.02)
 }
+#project-one {
+    background-image: url(./images/project-one.png);
+    cursor: pointer;
+}
+#project-one a{
+    color: #ffffff;
+}
+
+#project-two {
+    background-image: url(./images/messenger.jpg);
+    cursor: pointer;
+}
+#project-two a{
+    color: #ffffff;
+}
+
+#project-three{
+    background-image: url(./images/budget-calc.jpg);
+    cursor: pointer;
+}
+#project-three a{
+    color: #ffffff;
+}
+
+#project-four{
+    background-image: url(./images/pig-game.jpg);
+    cursor: pointer;
+}
+#project-four a{
+    color: #ffffff;
+}
+
 .card__title {
     position: relative;
     z-index: 1; 

@@ -509,7 +509,23 @@ if (typeof document !== "undefined") {
 return VanillaTilt;
 
 }());
-VanillaTilt.init(document.querySelector(".info-project-card"), {
+VanillaTilt.init(document.querySelector("#card-move-one"), {
+  max: 10,
+  speed: 350
+});
+VanillaTilt.init(document.querySelector("#card-move-two"), {
+  max: 10,
+  speed: 350
+});
+VanillaTilt.init(document.querySelector("#card-move-three"), {
+  max: 10,
+  speed: 350
+});
+VanillaTilt.init(document.querySelector("#card-move-four"), {
+  max: 10,
+  speed: 350
+});
+VanillaTilt.init(document.querySelector("#card-move-five"), {
   max: 10,
   speed: 350
 });
