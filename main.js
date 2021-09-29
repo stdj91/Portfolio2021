@@ -122,5 +122,3 @@ firstCompany.addEventListener('click', () => {
         thiComp = false;
     }
 })
-
-
