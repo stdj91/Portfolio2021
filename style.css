@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
 
+html {
+   
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -8,6 +11,10 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+.wrapper-secure{
+    overflow: hidden;
+    position: relative;
 }
 
 .container-header {
@@ -196,6 +203,7 @@ body {
     width: 100%;
 }
 
+
 .header-about {
     padding: 250px 0 0 50px;
 }
@@ -249,14 +257,14 @@ body {
     padding-left: 20px;
 }
 
-.profile-image {
+/*.profile-image {
     background-image: url(./images/personal-image.png);
     background-position: center;
     background-size: cover;
     min-width: 800px;
     min-height: 400px;
     margin-top: -60px;
-}
+}*/
 
 .container-about {
     height: 110vh;
@@ -764,6 +772,97 @@ hr {
 }
 
 
+@media (max-width: 1250px) {
+    #personal-image {
+        width: 550px;
+        height: 550px;
+    }
+    .row {
+        text-align: start;
+        align-items: center;
+    }
+    .header-about-h h1{
+        margin-right: 0;
+        font-size: 55px
+    }
+    .header-about {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 999px) {
+    .header-about-h h1 {
+        font-size: 48px;
+    }
+    .header-about {
+        padding: 0;
+    }
+    .container-header {
+        padding: 10px;
+    }
+    .menu-btn {
+        left: 91%
+    }
+}
+@media (max-width: 899px) {
+    #personal-image {
+        width: 400px;
+        height: 400px;
+        margin-right: -42px;
+    }
+    .logo-sd p {
+        font-size: 24px;
+    }
+    .logo-fwd p {
+        font-size: 16px;
+    }
+    .row {
+        align-items: flex-start;
+        padding-top: 100px;
+    }
+    .header-about__name p{
+        font-size: 15px;
+    }
+    .header-about-h h1 {
+        font-size: 39px;
+    }
+    .header-about__info p{
+        font-size: 19px;
+    }
+    .header-about__p .view-project,
+    .header-about__p .read-am{
+        font-size: 18px;
+    }
+    .menu-btn {
+        left: 90%
+    }
+}
+@media (max-width: 670px) {
+    .row {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    #personal-image {
+        margin: auto;
+    }
+    .header-about {
+        padding-top: 40px;
+    }
+    .menu-btn {
+        left: 85%
+    }
+}
+@media (max-width: 450px) {
+    #personal-image {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+
+
+/*
 @media screen and (max-width: 1480px ) {
     .profile-image {
         margin: 10px;
@@ -817,16 +916,26 @@ hr {
 @media screen and (max-width: 950px) {
     .profile-image {
         margin-right: -300px;
+        height: 77%;
     }
     .header-about__p {
         margin-right: -100px;
+    }
+    .header-about {
+        padding-left: 5px;
+    }
+    .header-about__name {
+        display: none;
     }
 }
 
 @media screen and (max-width: 820px) {
     .profile-image {
-        margin-right: -390px;
-        margin-top: 90px;
+        margin-right: 0;
+        margin-top: 130px;
+    }
+    .header-about {
+        padding-top: 40px;
     }
 }
 
@@ -837,8 +946,10 @@ hr {
         flex-direction: column-reverse;
     }
     .profile-image {
-        margin-top: 600px;
-        min-height: 850px;
+        margin: 0;
+        min-height: 550px;
+        margin-top: 70px;
+        margin-left: -80px;
     }
     .header-about {
         margin-right: -300px;
@@ -880,9 +991,24 @@ hr {
         margin-left: 45px;
     }
     .profile-image {
-        margin-left: 50px;
+        background-position-x: 2rem;
+        background-size: 523px;
+        background-repeat: no-repeat;
     }
     .header-about__p p{
         margin-left: 0;
     }
+    .logo {
+        margin-top: -15px;
+        margin-left: -20px;
+    }
+    .menu-btn {
+        margin-left: -45px;
+    }
 }
+@media (max-width: 390px) {
+    .profile-image {
+        background-position-x: -1rem;
+    }
+}
+*/
