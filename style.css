@@ -98,12 +98,12 @@ body {
     text-align: center;
 }
 .wrapper ul li{
-    margin: 15px 0;
+    margin: 25px 0;
 }
 .wrapper ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     padding: 5px 50px;
     position: relative;
@@ -788,6 +788,9 @@ hr {
     .header-about {
         padding-top: 0;
     }
+    .space-add {
+        height: 200px;
+    }
 }
 
 @media (max-width: 999px) {
@@ -836,15 +839,41 @@ hr {
     .menu-btn {
         left: 90%
     }
+    .about-me-h p span{
+        font-size: 30px;
+    }
+    .about-me-h {
+        padding-top: 100px;
+    }
+    .about-main__text {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .about-main__text h2 {
+        font-size: 30px;
+    }
+    .about-section__p {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .container-header {
+        height: 75vh;
+    }
+    .space-add {
+        display: none;
+    }
+    /* ===================== ABOUT ======================*/
 }
 @media (max-width: 670px) {
     .row {
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
+        margin-top: 70px;
     }
     #personal-image {
         margin: auto;
+        margin-top: 50px;
     }
     .header-about {
         padding-top: 40px;
@@ -852,11 +881,34 @@ hr {
     .menu-btn {
         left: 85%
     }
+    .container-header {
+        height: 90vh;
+    }
+    .space-add {
+        display:block;
+    }
+    .menu {
+        width: 350px;
+    }
+    
 }
 @media (max-width: 450px) {
     #personal-image {
         width: 350px;
         height: 350px;
+    }
+    .menu-btn {
+        left: 80%
+    }
+    
+}
+@media (max-width: 410px) {
+    .about-me-h {
+        width: 60%;
+        margin: auto;
+    }
+    .space-add {
+        height: 110px;
     }
 }
 
