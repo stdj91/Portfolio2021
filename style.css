@@ -791,6 +791,10 @@ hr {
     .space-add {
         height: 200px;
     }
+    /*====================== About / Experience =====================*/
+    .experience {
+        padding-top: 250px;
+    }
 }
 
 @media (max-width: 999px) {
@@ -805,6 +809,10 @@ hr {
     }
     .menu-btn {
         left: 91%
+    }
+      /*====================== About / Experience =====================*/
+    .experience {
+        padding-top: 300px;
     }
 }
 @media (max-width: 899px) {
@@ -862,7 +870,10 @@ hr {
     .space-add {
         display: none;
     }
-    /* ===================== ABOUT ======================*/
+      /*====================== About / Experience =====================*/
+      .experience {
+        padding-top: 200px;
+    }
 }
 @media (max-width: 670px) {
     .row {
@@ -890,7 +901,38 @@ hr {
     .menu {
         width: 350px;
     }
+
+    .row-experience h3 {
+        text-align: center;
+    }
+    .row-exp {
+        flex-direction: column;
+    }
+    .companies ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .companies {
+        padding-bottom: 40px;
+        border-left: none;
+    }
+    .job-description {
+        padding-left: 15px;
+    }
     
+}
+@media (max-width:550px) {
+    .experience {
+        padding-top: 400px;
+    }
+    .companies {
+        padding-right: 0;
+    }
+    .companies ul {
+        flex-direction: column;
+    }
 }
 @media (max-width: 450px) {
     #personal-image {
@@ -909,6 +951,11 @@ hr {
     }
     .space-add {
         height: 110px;
+    }
+    .experience {
+        padding-top: 500px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
