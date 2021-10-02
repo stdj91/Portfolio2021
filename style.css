@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
 
 html {
-   
+   scroll-behavior: smooth;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -12,6 +12,44 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
+#preloader {
+    background: #0f141e url(./images/preloader.gif) no-repeat center center;
+    background-size: 500px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+@keyframes move {
+    from { bottom: 0;
+
+    }
+    to { bottom: 100%;
+        
+    }
+}
+.preloader-disappear{
+    animation: move 0.7s linear;
+}
+.preloader-welcome {
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: 100;
+    padding-left:20px;
+}
+.preloader-wait {
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
 .wrapper-secure{
     overflow: hidden;
     position: relative;
@@ -938,7 +976,7 @@ hr {
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
-        margin-top: 70px;
+        margin-top: 250px;
     }
     #personal-image {
         margin: auto;
@@ -1007,7 +1045,10 @@ hr {
     #under-construction {
        margin-top: 30px;
     }
-    
+    .personal-image {
+        width: 250px;
+        height: 250px;
+    }
 }
 @media (max-width: 450px) {
     #personal-image {
@@ -1041,7 +1082,39 @@ hr {
     .row-project {
         margin-top: -400px;
     }
-}
+} @media (max-height: 750px) {
+        hr {
+            display: none;
+        }
+       .container-projects {
+           margin-top: 650px;
+       }
+       .row-project {
+           margin-top: 0;
+       }
+       #margin-fitx-one {
+           margin-top: -500px;
+       }
+       #under-construction {
+           margin-top: -700px;
+       }
+       .container-about {
+            margin-top:150px
+       }
+       #third-container {
+           margin-top: 10px
+       }
+       #fourth-row-project {
+           margin-top: -500px;
+       }
+       .experience {
+        margin-top: 70px;
+       }
+      
+        
+    };
+        
+   
 
 
 

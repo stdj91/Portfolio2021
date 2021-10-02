@@ -1,3 +1,18 @@
+/*================== animation preload ===================*/
+
+const preload = document.getElementById('preloader');
+
+window.addEventListener("load", function(){
+    this.setTimeout(function(){
+        preload.classList.add('preloader-disappear')
+        setTimeout(function(){
+            preload.style.display = "none";
+        },700)
+    }, 1700)
+})
+
+
+
 const menuBtn = document.querySelector('.menu-btn');
 const menuOpenPage = document.querySelector('.wrapper');
 const goToAbout = document.getElementById('about-section');
