@@ -49,6 +49,24 @@ body {
     padding-left: 20px;
     letter-spacing: 2px;
 }
+/*=============== Header Move Top Animation ====================*/
+#header-move1 {
+    transition: 1.5s;
+    transform: translateY(10000%);
+}
+#header-move2 {
+    transition: 2.2s;
+    transform: translateY(10000%);
+}
+#header-move3 {
+    transition: 2.9s;
+    transform: translateY(10000%);
+}
+#header-move4 {
+    transition: 3.6s;
+    transform: translateY(10000%);
+}
+
 
 .wrapper-secure{
     overflow: hidden;

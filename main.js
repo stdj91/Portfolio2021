@@ -4,13 +4,27 @@ const preload = document.getElementById('preloader');
 
 window.addEventListener("load", function(){
     this.setTimeout(function(){
-        preload.classList.add('preloader-disappear')
+        preload.classList.add('preloader-disappear');
+        animationStart();
         setTimeout(function(){
             preload.style.display = "none";
         },700)
     }, 1700)
 })
+const firstMoveTop = document.getElementById('header-move1');
+const secondMoveTop = document.getElementById('header-move2');
+const thirdMoveTop = document.getElementById('header-move3');
+const fourthMoveTop = document.getElementById('header-move4')
 
+
+
+
+const animationStart = () => {
+    firstMoveTop.style.transform = 'translateY(0)';
+    secondMoveTop.style.transform = 'translateY(0)';
+    thirdMoveTop.style.transform = 'translateY(0)';
+    fourthMoveTop.style.transform = 'translateY(0)';
+}
 
 
 const menuBtn = document.querySelector('.menu-btn');
