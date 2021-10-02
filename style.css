@@ -522,6 +522,12 @@ hr {
 #project-four a{
     color: #ffffff;
 }
+#under-construction {
+    background-image: url(./images/web-under-construction.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(80, 80, 80, 0);
+}
 
 .card__title {
     position: relative;
@@ -800,7 +806,12 @@ hr {
         padding-left: 50px;
         padding-right: 20px;
     }
+    #project-five {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
+
 
 @media (max-width: 999px) {
     .header-about-h h1 {
@@ -821,6 +832,9 @@ hr {
     }
     .container-projects {
         margin-top: 100px;
+    }
+    #third-container {
+        padding-left: 0;
     }
 }
 @media (max-width: 899px) {
@@ -878,6 +892,16 @@ hr {
     .space-add {
         display: none;
     }
+    .left-card-side {
+        margin-right: 0px;
+    }
+    .right-side {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    #project-two {
+        margin-top: 40px;
+    }
       /*====================== About / Experience =====================*/
       .experience {
         padding-top: 200px;
@@ -900,6 +924,13 @@ hr {
     }
     .content {
         min-width: 100%;
+    }
+    #fourth-container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .get-in-touch::after {
+        display: none;
     }
 }
 @media (max-width: 670px) {
@@ -969,6 +1000,14 @@ hr {
     .projects-main-head::after {
         height: 37%;
     }
+    #third-container {
+        margin-top: 150px;
+        padding-bottom: 0;
+    }
+    #under-construction {
+       margin-top: 30px;
+    }
+    
 }
 @media (max-width: 450px) {
     #personal-image {
@@ -998,6 +1037,9 @@ hr {
     }
     .container-projects {
         margin-top: 550px;
+    }
+    .row-project {
+        margin-top: -400px;
     }
 }
 
