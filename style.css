@@ -51,19 +51,19 @@ body {
 }
 /*=============== Header Move Top Animation ====================*/
 #header-move1 {
-    transition: 1.5s;
+    transition: 1s;
     transform: translateY(10000%);
 }
 #header-move2 {
-    transition: 2.2s;
+    transition: 1.5s;
     transform: translateY(10000%);
 }
 #header-move3 {
-    transition: 2.9s;
+    transition: 1.9s;
     transform: translateY(10000%);
 }
 #header-move4 {
-    transition: 3.6s;
+    transition: 2.4s;
     transform: translateY(10000%);
 }
 
