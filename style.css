@@ -357,6 +357,7 @@ body {
     color: #0f141e;
     padding-bottom: 30px;
 }
+
 .about-section__p {
     padding-left: 20%;
     padding-right: 20%;
@@ -367,7 +368,13 @@ body {
     line-height: 1.6;
     font-size: 22px;
     font-weight: 400;
+    color: #b40101;
+    font-style: italic;
 }
+.about-section__p span{
+    color: #0f141e;
+}
+
 
 hr {
     width: 80%;
@@ -832,6 +839,12 @@ hr {
     z-index: -1;
     left: -2rem;
 }
+.fa-github {
+    color:#b40101;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
 
 
 @media (max-width: 1250px) {
@@ -891,6 +904,9 @@ hr {
     }
     #third-container {
         padding-left: 0;
+    }
+    .card:hover:disabled {
+
     }
 }
 @media (max-width: 899px) {
