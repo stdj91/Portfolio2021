@@ -838,19 +838,20 @@ hr {
   .header-about {
     padding-top: 0;
   }
-  .space-add {
-    height: 200px;
-  }
+
   /*====================== About / Experience =====================*/
 
   .container-projects {
     max-width: none;
-    padding-left: 50px;
-    padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
   }
   #project-five {
     padding-left: 0;
     padding-right: 0;
+  }
+  .right-side {
+    padding-bottom: 12rem;
   }
 }
 
@@ -873,9 +874,7 @@ hr {
     margin-top: 100px;
   }
   #third-container {
-    padding-left: 0;
-  }
-  .card:hover:disabled {
+    padding: 120px 0 0 0;
   }
 }
 @media (max-width: 899px) {
@@ -940,8 +939,9 @@ hr {
     padding-left: 0;
     padding-top: 0;
   }
-  #project-two {
-    margin-top: 40px;
+
+  .technologies-used-project {
+    padding: 1rem 0 1rem 0;
   }
   /*====================== About / Experience =====================*/
 
@@ -963,6 +963,9 @@ hr {
   }
   .content {
     min-width: 100%;
+  }
+  #third-container {
+    padding: 0;
   }
   #fourth-container {
     padding-right: 0;
@@ -1028,9 +1031,7 @@ hr {
   .companies ul {
     flex-direction: column;
   }
-  .container-projects {
-    margin-top: 330px;
-  }
+
   .projects-main-head {
     font-size: 50px;
   }
@@ -1054,11 +1055,23 @@ hr {
     width: 350px;
     height: 350px;
   }
+  .technologies {
+    width: 100%;
+  }
+  .technologies p {
+    padding: 10px;
+  }
   .menu-btn {
     left: 80%;
   }
   .container-projects h2 {
     font-size: 45px;
+  }
+  .container-about {
+    margin-top: 150px;
+  }
+  .right-side {
+    padding-bottom: 0;
   }
 }
 @media (max-width: 410px) {
@@ -1066,15 +1079,11 @@ hr {
     width: 60%;
     margin: auto;
   }
-  .space-add {
-    height: 110px;
-  }
-
-  .container-projects {
-    margin-top: 550px;
-  }
-  .row-project {
-    margin-top: -400px;
+}
+@media (max-width: 350px) {
+  #personal-image {
+    width: 300px;
+    height: 300px;
   }
 }
 /*
